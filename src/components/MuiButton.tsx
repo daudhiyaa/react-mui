@@ -22,6 +22,7 @@ export const MuiButton = () => {
   ) => {
     setFormats(updatedFormats);
   };
+
   return (
     <Stack spacing={4}>
       <Stack spacing={2} direction="row">
@@ -78,6 +79,8 @@ export const MuiButton = () => {
           <SendIcon />
         </IconButton>
       </Stack>
+
+      {/* ButtonGroup */}
       <Stack direction="row">
         <ButtonGroup
           variant="text"
@@ -91,6 +94,8 @@ export const MuiButton = () => {
           <Button>Right</Button>
         </ButtonGroup>
       </Stack>
+
+      {/* ToggleButton */}
       <Stack direction="row">
         <ToggleButtonGroup
           exclusive
