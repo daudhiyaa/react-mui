@@ -7,13 +7,13 @@ Learn a basic implementation of most used React MUI Component (using Typescript)
 1.  Clone the Repository
 
     ```sh
-    git clone https://github.com/daudhiyaa/react-ts-shopping-cart.git
+    git clone https://github.com/daudhiyaa/react-mui.git
     ```
 
 2.  Go to your project directory & Install Dependencies
 
     ```sh
-    cd react-ts-shopping-cart
+    cd react-mui
     yarn install
     ```
 
